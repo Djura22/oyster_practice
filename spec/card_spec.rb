@@ -15,7 +15,11 @@ describe Card do
   describe '#top_up' do
 
   	it 'can top up balance' do
-  		expect{ subject.top_up 100 }.to change{ subject.balance }.by 100
+  		expect{ subject.top_up 90 }.to change{ subject.balance }.by 90
+  	end
+
+  	it 'balance cannot exceed MAX_LIMIT by top_up' do
+  		expect{ subject.top_up 91 }.to raise_error "Balance cannot exceed 90"
   	end
 
   end
