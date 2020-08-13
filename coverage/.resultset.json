@@ -1,0 +1,37 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/student/Projects/oyster/spec/card_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/oyster/lib/card.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1597355220
+  }
+}
